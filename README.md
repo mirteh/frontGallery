@@ -8,7 +8,7 @@ Wordpress gallery plugin
 ```javascript
 <script type="text/javascript">
 	frontGallery({
-	  'aniClass' : 'port-item',	
+	  'aniClass' : 'classname',	
       'aniTime': 500,
       'aniTransition': 'fade',
     }); 
