@@ -6,13 +6,13 @@ Wordpress gallery plugin
 3. Add this code above the </body> tag in te footer.php template file:
 
 
-<script type="text/javascript">
+```<script type="text/javascript">
 	frontGallery({
 	  'aniClass' : 'port-item',	
       'aniTime': 500,
       'aniTransition': 'fade',
     }); 
-</script>
+</script>```
 
 
 aniClass = the class of the links you want to open in frontGallery
