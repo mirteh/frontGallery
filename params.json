@@ -1,0 +1,6 @@
+{
+  "name": "Frontgallery",
+  "tagline": "Wordpress gallery plugin",
+  "body": "# frontGallery\r\nWordpress gallery plugin\r\n\r\n1. Install plugin.\r\n2. You need jQuery to make this plugin work.\r\n3. Add this code above the </body> tag in te footer.php template file:\r\n\r\n```javascript\r\n<script type=\"text/javascript\">\r\n\tfrontGallery({\r\n\t  'aniClass' : 'classname',\t\r\n      'aniTime': 500,\r\n      'aniTransition': 'fade',\r\n    }); \r\n</script>\r\n```\r\n\r\n* aniClass = the class of the links you want to open in frontGallery\r\n* aniTime = the duration of the animation\r\n* aniTransition = the transition you want to use. For the moment the only transition is fade.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
