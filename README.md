@@ -5,7 +5,8 @@ Wordpress gallery plugin
 2. You need jQuery to make this plugin work.
 3. Add this code above the </body> tag in te footer.php template file:
 
-```<script type="text/javascript">
+```javascript
+<script type="text/javascript">
 	frontGallery({
 	  'aniClass' : 'port-item',	
       'aniTime': 500,
