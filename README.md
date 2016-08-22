@@ -12,7 +12,8 @@ Wordpress gallery plugin
       'aniTime': 500,
       'aniTransition': 'fade',
     }); 
-</script>```
+</script>
+```
 
 * aniClass = the class of the links you want to open in frontGallery
 * aniTime = the duration of the animation
