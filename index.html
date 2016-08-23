@@ -35,11 +35,15 @@
   <li>Add this code above the </body> tag in the footer.php template file:<br/>
   <xmp>
 <script type="text/javascript">
+$( document ).ready(function() {
 	frontGallery({
 	  'aniClass' : 'classname',	
 	  'aniTime': 500,
 	  'aniTransition': 'fade',
-    }); 
+	}); 
+});
+
+	
 </script>
 </xmp>
   </li>
