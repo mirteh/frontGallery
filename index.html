@@ -53,7 +53,8 @@ jQuery(document).ready(function() {
 aniClass = the class of the links you want to open in frontGallery<br/>
 aniTime = the duration of the animation<br/>
 aniTransition = the transition you want to use. For the moment the only transition is fade.
-
+</p>
+<p>
 Add the attribute gal-name to the link if you want multiple images in 1 gallery.
 </p>
 
@@ -73,11 +74,13 @@ Add the attribute gal-name to the link if you want multiple images in 1 gallery.
     </section>
 
   <script type="text/javascript">
-	frontGallery({
-		'aniClass' : 'example',	
-      		'aniTime': 500,
-      		'aniTransition': 'fade',
-    	}); 
+	$(document).ready(function() {
+		frontGallery({
+			'aniClass' : 'example',	
+	      		'aniTime': 500,
+	      		'aniTransition': 'fade',
+	    	});
+	});
 	</script>
   </body>
 </html>
