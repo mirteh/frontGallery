@@ -5,7 +5,6 @@ Wordpress gallery plugin
 2. You need jQuery to make this plugin work.
 3. Add this code above the </body> tag in the footer.php template file:
 
-```javascript
 <script type="text/javascript">
 	frontGallery({
 	  'aniClass' : 'classname',	
@@ -13,8 +12,9 @@ Wordpress gallery plugin
       'aniTransition': 'fade',
     }); 
 </script>
-```
 
 * aniClass = the class of the links you want to open in frontGallery
 * aniTime = the duration of the animation
 * aniTransition = the transition you want to use. For the moment the only transition is fade.
+
+For more info: https://mirteh.github.io/frontGallery/
