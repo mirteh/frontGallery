@@ -8,6 +8,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/mirteh/frontGallery/master/css/min.style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+    <script type="javascript" src="https://raw.githubusercontent.com/mirteh/frontGallery/master/js/frontGallery.min.js"></script>
   </head>
   <body>
     <section class="page-header">
@@ -22,10 +27,6 @@
       <h1>
 <a id="frontgallery" class="anchor" href="#frontgallery" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>frontGallery</h1>
 
-<p>Wordpress gallery plugin</p>
-
-
-<h2>frontGallery</h2>
 <p>Wordpress gallery plugin</p>
 
 <h3>How tu use?</h3>
@@ -49,9 +50,15 @@
 aniClass = the class of the links you want to open in frontGallery<br/>
 aniTime = the duration of the animation<br/>
 aniTransition = the transition you want to use. For the moment the only transition is fade.
+
+Add the attribute gal-name to the link if you want multiple images in 1 gallery.
 </p>
 
+<h3>Example #1</h3>
 
+<a class="example" href="http://mirte-h.be/wp-content/uploads/2016/08/DSC_7308-1024x683.jpg" gal-name="example">Image #1</a>
+<a class="example" href="http://mirte-h.be/wp-content/uploads/2016/08/DSC_6834-1024x683.jpg" gal-name="example">Image #2</a>
+<a class="example" href="http://mirte-h.be/wp-content/uploads/2016/08/DSC_7231-1024x683.jpg" gal-name="example">Image #3</a>
 
 
       <footer class="site-footer">
@@ -62,6 +69,12 @@ aniTransition = the transition you want to use. For the moment the only transiti
 
     </section>
 
-  
+  <script type="text/javascript">
+	frontGallery({
+		'aniClass' : 'example',	
+      		'aniTime': 500,
+      		'aniTransition': 'fade',
+    	}); 
+	</script>
   </body>
 </html>
