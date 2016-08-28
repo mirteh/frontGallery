@@ -44,10 +44,12 @@ a {
 	margin: 2em auto;
 	padding: 0;
 	height: auto;
-	width: 60em;
+	min-width: 50%;
 	max-width: 60%;
+	width: auto;
 	text-align: center;
 	display: block;
+	background: #fff;
 }
 
 .frontGallery img {	
@@ -60,7 +62,7 @@ a {
 	position: relative;
 	margin: 0 auto;
 	padding: 0;
-	width: 60em;
+	width: auto;
 	max-width: 60%;
 	height: auto;
 	display: block;
@@ -112,11 +114,11 @@ a {
 .frontGallery .imgTitle {
 	float: left;
 	margin: 0 auto 1em auto;
-	padding: 1em;
-	width: 43.6em;
+	padding: 0;
 	font-size: 1.375em;
 	font-weight: 700;
 	color: #000;
+	width: auto;
 	background: #fff;
 	display: block;
 }
@@ -124,15 +126,20 @@ a {
 .frontGallery .imgText {
 	float: left;
 	margin: 0 0 1em 0;
-	padding: 1em;
-	width: 50em;
+	padding: 0;
 	font-size: 1.2em;
 	line-height: 1.8em;
 	font-weight: 300;
 	color: #000;
+	width: auto;
 	background: #fff;
 	display: block;
 }
+
+.frontGallery .imgText div, .frontGallery .imgTitle div {
+	padding: 1em;
+}
+
 
 .frontGallery .imgTitle.hidden, .frontGallery .imgText.hidden {
 	display: none;
@@ -150,25 +157,17 @@ a {
 
 	.frontGallery .imgContainer {
 		margin: 2em auto 1em auto;
-		width: 100%;
+		width: 81%;
 		padding: 0;
 	}
 
 	.frontGallery .imgBox {
 		margin: 0 auto;
 		padding: 0.4em 4%;
-		width: 90%;
+		width: 80%;
 	}
-
-	.frontGallery .imgText {
-		width: 80%; 
-	}
-	
-	.frontGallery .imgTitle {
-	 	width: 78%;
-	 }
 
 	.frontGallery .galleryControls {
-		right: -40%;
+		right: -22%;
 	} 
 } 
