@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>frontGallery</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/mirteh/frontGallery/master/css/style.css" media="all" />
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script src="js/frontGallery.min.js?dsf" type="text/javascript"></script>
+	<script src="https://raw.githubusercontent.com/mirteh/frontGallery/master/js/frontGallery.min.js?dsf" type="text/javascript"></script>
 
 </head>
 <body>
