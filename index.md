@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mirteh/frontGallery/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<head>
+	<title>frontGallery</title>
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/mirteh/frontGallery/master/css/style.css" media="all" />
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="https://raw.githubusercontent.com/mirteh/frontGallery/master/js/frontGallery.min.js?dsf" type="text/javascript"></script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
+<body>
+	<h1>Gallery 1</h1>
 
-### Markdown
+	<p>	
+		<a href="https://raw.githubusercontent.com/mirteh/frontGallery/master/images/1.jpg" gal-name="gallery1" slide-title="Title" slide-text="Morbi rutrum faucibus elit vel volutpat. Morbi sed mauris massa. Curabitur at lectus eu eros sollicitudin mollis. Suspendisse ultricies nulla quis aliquam interdum. Vivamus volutpat tellus sed enim lobortis, sit amet congue tortor dignissim. Proin et erat dapibus, fringilla eros et, congue eros.">Image #1</a>
+		<a href="https://raw.githubusercontent.com/mirteh/frontGallery/master/images/2.jpg" gal-name="gallery1" slide-text="2">Image #2</a>
+		<a href="https://raw.githubusercontent.com/mirteh/frontGallery/master/images/3.jpg"  gal-name="gallery1">Image #3</a>
+	</p>
+ 
+	<h1>Gallery 2</h1>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<p>	
+		<a href="https://raw.githubusercontent.com/mirteh/frontGallery/master/images/1.jpg" gal-name="gallery2" slide-title="Title" slide-text="Text">Image #1</a>
+	</p>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mirteh/frontGallery/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script type="text/javascript">
+	frontGallery({
+      	'aniTime': 1000,
+    }); 
+</script>
+</body>
+</html>
